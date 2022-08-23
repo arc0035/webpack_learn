@@ -26,9 +26,11 @@
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
 
-        // "baseUrl": "../", //parent of this startup folder
-        // "paths": {
-        //     "@/*": ["app/*"]
-        // },
-    }
+        "baseUrl": "../", //parent of this startup folder
+        "paths": {
+            "@/*": ["app/*"],
+            "@images/*": ["images/*"]
+        },
+    },
+    "include":["../types/**/*"]
 }
