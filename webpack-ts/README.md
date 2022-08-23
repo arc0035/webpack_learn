@@ -7,5 +7,5 @@ webpack的ts练习。
 - 使用ts-loader来对入口ts进行编译
 - 处理多个入口
 - 使用HtmlWebPackPlugin，生成多个html文件
-- 练习url-loader TODO
+- 练习url-loader 
 - 完成react程序的处理。 TODO
