@@ -3,7 +3,7 @@ import webpack from 'webpack'
 
 
 const config: webpack.Configuration = {
-    mode: process.env.NODE_ENV=='dev'?'development':'production',
+    mode: process.env.NODE_ENV ==='development'?'development':'production',
     entry: {
         popup: path.resolve('app', 'popup','index.ts'),
         option: path.resolve('app', 'option', 'index.ts'),
@@ -11,7 +11,7 @@ const config: webpack.Configuration = {
     module: {
         rules: [
             {
-                test: /.tsx?$/,
+                test: /\.(ts|tsx)$/,
                 use: {
                     loader: 'ts-loader',
                     options:{
